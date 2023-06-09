@@ -12,10 +12,13 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../Style/login.css">
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <section>
-        <div class="container-login">
+        <div class="container-login" data-aos="zoom-out-right" data-aos-duration="1000">
             <div class="left-side">
                 <h1 id="big-text-login">Hello There,
                     <br>
@@ -33,6 +36,7 @@
                     <input type="email" id="email-login" placeholder="email">
                     <input type="password" id="password-login" placeholder="password">
                     <button id="button-login">Login</button>
+                    <a href="#" id="lupa-login">Lupa kata sandi?</a>
                 </div>
             </div>
         </div>
@@ -41,5 +45,13 @@
 
     <!-- JavaScript -->
     <script src="../Script/login.js"></script>
+
+    <!-- AOS JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- AOS Init -->
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

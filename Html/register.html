@@ -12,10 +12,13 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../Style/register.css">
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <section>
-        <div class="container-register">
+        <div class="container-register" data-aos="zoom-out-left" data-aos-duration="1000">
             <div class="left-side">
                 <h1 id="big-text-register">
                     Welcome To Our
@@ -33,10 +36,10 @@
             </div>
             <div class="right-side">
                 <div class="form-register">
-                    <input type="username" id="username-register" placeholder="username">
+                    <input type="text" placeholder="username" id="username-register">
                     <input type="email" id="email-register" placeholder="email">
                     <input type="password" id="password-register" placeholder="password">
-                    <button id="button-register" onclick="location.href='home.html'">Register</button>
+                    <button id="button-register">Register</button>
                 </div>
             </div>
         </div>
@@ -45,5 +48,13 @@
 
     <!-- JavaScript -->
     <script src="../Script/login.js"></script>
+
+    <!-- AOS JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- AOS Init -->
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
