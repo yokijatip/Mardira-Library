@@ -30,7 +30,7 @@ nav{
 
     margin-left: 10%;
     margin-right: 10%;
-    
+    margin-bottom: 5%;
 }
 
 .nav-menu ul{
@@ -127,7 +127,7 @@ nav{
     width: 220px;
     height: 340px;
 
-    filter: drop-shadow(4px 2px 8px rgba(51, 51, 51, 0.1));
+    filter: drop-shadow(4px 2px 8px rgba(51, 51, 51, .2));
     border-radius: 100px 299px 8px 8px;
     transform: matrix(1, 0, 0, -1, 0, 0);
 }
@@ -151,8 +151,124 @@ nav{
     width: 220px;
     height: 340px;
 
-    filter: drop-shadow(-4px 4px 8px rgba(51, 51, 51, 0.1));
+    filter: drop-shadow(-4px 4px 8px rgba(51, 51, 51, 0.2));
     border-radius: 299px 100px 8px 8px;
     
     align-self: flex-end;
 }
+
+/* CONTAINER COUNT */
+.container-count {
+    max-width: 100%;
+    height: 10rem;
+    /* background-color: bisque; */
+
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+}
+
+#count-number1 {
+
+    height: max-content;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    
+    color: #333;
+
+    /* background-color: burlywood; */
+}
+
+#count-text1 {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #333;
+
+    /* background-color: burlywood; */
+}
+#count-number1 {
+
+    height: max-content;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    
+    color: #333;
+
+    /* background-color: burlywood; */
+}
+
+#count-text2 {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #333;
+    /* background-color: burlywood; */
+}
+#count-number2 {
+
+    height: max-content;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    
+    color: #333;
+
+    /* background-color: burlywood; */
+}
+
+#count-text3 {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #333;
+
+    /* background-color: burlywood; */
+}
+#count-number3 {
+
+    height: max-content;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    
+    color: #333;
+
+    /* background-color: burlywood; */
+}
+
+#count-text3 {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #333;
+
+    /* background-color: burlywood; */
+}
+/* CONTAINER COUNT END */
+
+/* CONTAINER HIGHLIGHT 1  */
+
+
+
+/* CONTAINER HIGHLIGHT 1 END */
